@@ -32,6 +32,7 @@ class Ball(Turtle):
 
     def miss(self):
         self.goto(0,0)
+        self.ball_speed = 0.1
         self.move_x *= -1
 
 
